@@ -1,5 +1,5 @@
 const config = require('./config.js');
-
+const statusMessages = ["Watching R4VE VORTEX","Listening to Spotify","Youtube"];
 if(config.shardManager.shardStatus == true){
 
 const { ShardingManager } = require('discord.js');
